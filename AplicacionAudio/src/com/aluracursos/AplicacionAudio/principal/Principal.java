@@ -30,11 +30,15 @@ public class Principal {
             miPodcast.reproduce();
         }
 
-        System.out.println("El total de reproducciones de " + miCancion.getTitulo() + " son: " + miCancion.getTotalDeReproducciones());
-        System.out.println("El total de Me Gusta de " + miCancion.getTitulo() + " son: " + miCancion.getTotalDeMeGusta());
+        System.out.println("El total de reproducciones de " + miCancion.getTitulo()
+                + " son: " + miCancion.getTotalDeReproducciones());
+        System.out.println("El total de Me Gusta de " + miCancion.getTitulo()
+                + " son: " + miCancion.getTotalDeMeGusta());
 
-        System.out.println("El total de reproducciones de " + miPodcast.getTitulo() + " son: " + miPodcast.getTotalDeReproducciones());
-        System.out.println("El total de Me Gusta de " + miPodcast.getTitulo() + " son: " + miPodcast.getTotalDeMeGusta());
+        System.out.println("El total de reproducciones de " + miPodcast.getTitulo()
+                + " son: " + miPodcast.getTotalDeReproducciones());
+        System.out.println("El total de Me Gusta de " + miPodcast.getTitulo()
+                + " son: " + miPodcast.getTotalDeMeGusta());
 
         MisFavoritos favoritos = new MisFavoritos();
         favoritos.adicionar(miPodcast);
